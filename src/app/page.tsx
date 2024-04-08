@@ -15,6 +15,7 @@ import {
   projects,
   skills,
   workExperiences,
+  resume,
 } from "../../lib/data"
 
 export default function Home() {
@@ -59,7 +60,16 @@ export default function Home() {
                   />
                 ))}
               </div>
-              <p className="text-xs text-muted-foreground">Tech stack</p>
+            </div>
+          </section>
+          {/* Resume */}
+          <section id="resume" key="resume">
+            <h2 className="text-2xl font-semibold tracking-tight">Resume</h2>
+            <div className="mt-5 rounded-xl border bg-card text-card-foreground shadow">
+              <p className="p-6 text-sm text-muted-foreground">
+                Discover my resume {" "}
+                <a href={`${resume}`}>here</a>
+              </p>
             </div>
           </section>
           {/* Work */}

@@ -88,6 +88,8 @@ import {
       text: "Figma" 
     }
   ];
+
+  export const resume = "https://drive.google.com/file/d/14CArG3TtsMDJAtb4CtDN69ao8xM6tNEx/view?usp=sharing";
   
   export interface Project {
     title: string;
@@ -96,6 +98,11 @@ import {
   }
   
   export const projects: Project[] = [
+    {
+      title: "Invoicesync Management System (ongoing)",
+      description: "Lead the development team as a Project Manager using Agile methodology",
+      link: "https://github.com/fahiradh",
+    },
     {
       title: "Logistic Information System",
       description: "Software for arranging and managing logistics in warehouse",
@@ -108,7 +115,7 @@ import {
     },
     {
       title: "Kino App UI Design",
-      description: "Designing the UI for mobile personalized travel app",
+      description: "Design interactive UI for mobile personalized travel app",
       link: "https://drive.google.com/file/d/1PHBjbalTSv_IvC7WbgljClIMO_3i5rAG/view?usp=sharing",
     },
   ];
@@ -137,12 +144,11 @@ import {
       company: "WIR Group",
       position: "Odoo Developer Intern",
       description: "Developed odoo modules as user's needed",
-      years: "Dec 2024 - Feb 2024",
+      years: "Dec 2023 - Feb 2024",
     },
   ];
   
   export const aboutYou = {
-    name: "",
     description:
       "👋 Hi, I'm Fahira Adindiah, a final-year Information Systems student at Faculty of Computer Science, University of Indonesia.",
     yearsOfExperience: "1+ years",

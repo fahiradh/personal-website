@@ -1,9 +1,8 @@
 "use client";
 
 import { Button } from "./ui/button";
-import Logo from "./logo";
 import { ModeToggle } from "./mode-toggle";
-import { Home, Briefcase, Mail, Presentation } from "lucide-react";
+import { Home, Briefcase, Mail, Presentation, FileText } from "lucide-react";
 import { useRouter } from "next/navigation";
 
 export default function Navbar() {
@@ -25,6 +24,15 @@ export default function Navbar() {
         >
           <Home className=" h-4 w-4" />
           <span className="hidden md:block ml-2">Home</span>
+        </Button>
+        <Button
+          onClick={() => navigateTo("/#resume")}
+          variant="outline"
+          size="sm"
+          className="ml-auto h-8"
+        >
+          <FileText className=" h-4 w-4" />
+          <span className="hidden md:block ml-2">Resume</span>
         </Button>
         <Button
           onClick={() => navigateTo("/#projects")}

@@ -95,7 +95,7 @@ export default function Home() {
             <h2 className="text-2xl font-semibold tracking-tight">Contact</h2>
             <div className="mt-5 rounded-xl border bg-card text-card-foreground shadow">
               <p className="p-6 text-sm text-muted-foreground">
-                Don't hesitate to contact me via {" "}
+                Don&apos;t hesitate to contact me via{" "}
                 <a href={`mailto:${aboutYou.email}`}>{aboutYou.email}</a>
               </p>
             </div>

@@ -99,8 +99,8 @@ import {
   
   export const projects: Project[] = [
     {
-      title: "Invoicesync Management System (ongoing)",
-      description: "Lead the development team as a Project Manager using Agile methodology",
+      title: "Invoice Management System (ongoing)",
+      description: "Software for managing invoices at Krida Technologies",
       link: "https://github.com/fahiradh",
     },
     {

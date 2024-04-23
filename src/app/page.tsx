@@ -60,6 +60,7 @@ export default function Home() {
                   />
                 ))}
               </div>
+              <p className="text-xs text-muted-foreground">Tech Stack</p>
             </div>
           </section>
           {/* Resume */}

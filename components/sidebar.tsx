@@ -7,6 +7,11 @@ export default function Sidebar() {
       <p className="text-sm text-muted-foreground tracking-tight">
         {aboutYou.description}
       </p>
+      <br></br>
+      <p className="text-sm text-muted-foreground tracking-tight">
+        Have anything to connect with me? Please reach me via {" "}
+        <a href={`mailto:${aboutYou.email}`}>{aboutYou.email}</a>
+      </p>
     </div>
   );
 }

@@ -52,7 +52,7 @@ export default function Navbar() {
           <Briefcase className=" h-4 w-4" />
           <span className="hidden md:block ml-2">Work</span>
         </Button>
-        <Button
+        {/* <Button
           onClick={() => navigateTo("/#contact")}
           variant="outline"
           size="sm"
@@ -60,7 +60,7 @@ export default function Navbar() {
         >
           <Mail className=" h-4 w-4" />
           <span className="hidden md:block ml-2">Contact</span>
-        </Button>
+        </Button> */}
         <ModeToggle />
       </div>
     </div>

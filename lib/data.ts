@@ -2,7 +2,6 @@ import {
     SiTypescript,
     SiJavascript,
     SiNextdotjs,
-    SiNodedotjs,
     SiPython,
     SiHtml5,
     SiCss3,
@@ -12,13 +11,24 @@ import {
     SiBootstrap,
     SiTailwindcss,
     SiSpringboot,
-    SiGooglecolab,
     SiFigma,
-    SiPostman
+    SiPostman,
+    SiAngular,
+    SiMysql,
+    SiPostgresql,
+    SiJunit5,
+    SiSonarqube
   } from "react-icons/si";
-  import { BiLogoPostgresql } from "react-icons/bi";
   
   export const skills = [
+    {
+      icon: SiSpringboot,
+      text: "Spring",
+    },
+    {
+      icon: SiAngular,
+      text: "Angular",
+    },
     {
       icon: SiTypescript,
       text: "TypeScript",
@@ -44,16 +54,16 @@ import {
       text: "CSS3",
     },
     {
-      icon: SiNodedotjs,
-      text: "Node",
-    },
-    {
       icon: SiPython,
       text: "Python",
     },
     {
-      icon: BiLogoPostgresql,
+      icon: SiPostgresql,
       text: "PostgreSQL",
+    },
+    {
+      icon: SiMysql,
+      text: "MySQL",
     },
     {
       icon: SiSupabase,
@@ -72,16 +82,15 @@ import {
       text: "Bootstrap",
     },
     {
-      icon: SiSpringboot,
-      text: "SpringBoot",
-    },
-    {
-      icon: SiGooglecolab,
-      text: "Google Colab",
-    },
-    {
       icon: SiPostman,
       text: "Postman" 
+    },
+    {
+      icon: SiJunit5,
+      text: "JUnit" 
+    },{
+      icon: SiSonarqube,
+      text: "SonarQube" 
     },
     {
       icon: SiFigma,
@@ -89,7 +98,7 @@ import {
     }
   ];
 
-  export const resume = "https://drive.google.com/file/d/14CArG3TtsMDJAtb4CtDN69ao8xM6tNEx/view?usp=sharing";
+  export const resume = "https://drive.google.com/file/d/18S6p9ytDVEfayHx2Na2Aa6XZHTJBAXUP/view?usp=sharing";
   
   export interface Project {
     title: string;
@@ -99,51 +108,47 @@ import {
   
   export const projects: Project[] = [
     {
-      title: "Invoice Management System (ongoing)",
+      title: "SIBIKU",
+      description: "Mobile application for learning Indonesia sign language",
+      link: "https://drive.google.com/file/d/1u9wF3J0i8HOShrKrAzDEzWD4mEjWF00Z/view",
+    },
+    {
+      title: "Invoice Management System",
       description: "Software for managing invoices at Krida Technologies",
-      link: "https://github.com/fahiradh",
+      link: "https://github.com/fahiradh/invoicesync",
     },
     {
       title: "Logistic Information System",
       description: "Software for arranging and managing logistics in warehouse",
       link: "https://github.com/fahiradh/silogistik",
     },
-    {
-      title: "Apartment Listings Data Analysis",
-      description: "Take insight from analyzing the apartment listings dataset",
-      link: "https://drive.google.com/file/d/1HLH7IdiABrT3inLeHjBcPG-pOWgKvBbU/view?usp=sharing",
-    },
-    {
-      title: "Kino App UI Design",
-      description: "Design interactive UI for mobile personalized travel app",
-      link: "https://drive.google.com/file/d/1PHBjbalTSv_IvC7WbgljClIMO_3i5rAG/view?usp=sharing",
-    },
   ];
   
   export interface WorkExperience {
     company: string;
     position: string;
-    description: string;
     years: string;
   }
   
   export const workExperiences: WorkExperience[] = [
     {
+      company: "FPT Software Indonesia",
+      position: "Software Engineer Intern",
+      years: "Jun 2024 - Sept 2024",
+    },
+    {
       company: "Akulaku Indonesia",
       position: "Software Engineer Intern",
-      description: "Build internal portal software system for Akulaku Finance Indonesia",
       years: "Mar 2024 - May 2024",
     },
     {
       company: "Krida Technologies",
       position: "Project Manager Contract",
-      description: "Build invoice management system",
       years: "Feb 2024 - Jun 2024",
     },
     {
       company: "WIR Group",
-      position: "Odoo Developer Intern",
-      description: "Developed odoo modules as user's needed",
+      position: "Backend Developer Intern",
       years: "Dec 2023 - Feb 2024",
     },
   ];
@@ -159,8 +164,8 @@ import {
   export const logoText = "halo.fahira@gmail.com";
   
   export const marketingHeadlines = {
-    mainHeadline: "Fahira Adindiah",
-    subHeadline: "like to craft software and explore data",
+    mainHeadline: "🧕 Fahira Adindiah",
+    subHeadline: "like to craft software and involve in team projects",
   };
   
   export const websiteMetadata = {

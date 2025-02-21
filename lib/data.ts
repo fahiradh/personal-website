@@ -132,7 +132,7 @@ import {
   
   export const workExperiences: WorkExperience[] = [
     {
-      company: "Accenture Indoensia",
+      company: "Accenture Indonesia",
       position: "Technology Analyst Intern",
       years: "Nov 2024 - Present",
     },

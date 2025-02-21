@@ -132,14 +132,14 @@ import {
   
   export const workExperiences: WorkExperience[] = [
     {
+      company: "Accenture Indoensia",
+      position: "Technology Analyst Intern",
+      years: "Nov 2024 - Present",
+    },
+    {
       company: "FPT Software Indonesia",
       position: "Software Engineer Intern",
       years: "Jun 2024 - Sept 2024",
-    },
-    {
-      company: "Akulaku Indonesia",
-      position: "Software Engineer Intern",
-      years: "Mar 2024 - May 2024",
     },
     {
       company: "Krida Technologies",
